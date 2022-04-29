@@ -8,21 +8,21 @@ public class Emprestimo{
     public Usuario getUsuario(){
         return usuario;
     }
-    public Usuario setUsuario(Usuario usuario){
+    public void setUsuario(Usuario usuario){
         this.usuario = usuario;
     }
 
-    public Livro setLivro(){
+    public Livro getLivro(){
         return livro;
     }
-    public Livro getLivro(Livro livro){
+    public void setLivro(Livro livro){
         this.livro = livro;
     }
 
-    public Funcionario setFuncionario(){
+    public Funcionario getFuncionario(){
         return funcionario;
     }
-    public Funcionario getFuncionario(Funcionario funcionario){
+    public void setFuncionario(Funcionario funcionario){
         this.funcionario = funcionario;
     }
 

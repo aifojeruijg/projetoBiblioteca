@@ -14,7 +14,7 @@ public class Funcionario {
     public String getMatricula(){
         return matricula;
     }
-    public String setMatricula(String matricula){
+    public void setMatricula(String matricula){
         this.matricula = matricula;
     }
 
